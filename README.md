@@ -25,7 +25,6 @@ _by Kashif Naseer_
 Go to GitHub, and go to your profile settings.
 Next, click on SSH and GPG Keys.
 Then, click on New SSH key to make a new SSH key.
-Title it cloud9.
 Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and paste the SSH key in GitHub and add the SSH key.
     
 ---
@@ -45,7 +44,7 @@ Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and 
 * ```mkdir``` :creates a directory in the one thats working 
 * ```cd``` : stands for change directory
 * ```touch``` : craetes a new file 
-* ```ls ```  :Lists all the files and folders in the directory you are in.  
+* ```ls ```  : Lists all the files and folders in the directory you are in.  
 
 
 
