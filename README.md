@@ -18,7 +18,7 @@ _by Kashif Naseer_
 ---
 ## Initial Setup
 ##### Making a Github 
-    * go to  [Github](https://github.com)
+* go to  [Github](https://github.com)
         *click sign up
     * put all neeeded information
 #####  SSH Key stands for secure shell and establishs a secure connection between your computer and GitHub
