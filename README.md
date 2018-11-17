@@ -25,8 +25,8 @@ _by Kashif Naseer_
 Go to GitHub, and go to your profile settings.
 Next, click on SSH and GPG Keys.
 Then, click on New SSH key to make a new SSH key.
-Title it cloud9.
-Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and paste the SSH key in GitHub and add the SSH key.
+ 
+Then go to c9.io and press the gear icon --> SSH keys tab --> copyand paste the SSH key in GitHub and add the SSH key.
     
 ---
 ## Repository Setup
@@ -50,3 +50,6 @@ Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and 
 
 ---
 ## Rolling Back Changes
+*  undo edits in order to undo a edit that you did in a file then do git checkout -- filename
+* undo add in order to unstage a file you must git reset HEAD filename
+* undo commits in order to undo a commit there are three possible ways of undoing
