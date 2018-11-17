@@ -4,7 +4,7 @@ _by Kashif Naseer_
 
 ---
 ## Git vs. GitHub
- **Git is an  version control system and GitHub is a web-page on which you can publish your Git repositories and collaborate with other people.**
+ **Git is a version control system and GitHub is a web-page on which you can publish your Git repositories and collaborate with other people.**
  
 * Git
     * snapshot 
@@ -18,16 +18,16 @@ _by Kashif Naseer_
 ---
 ## Initial Setup
 ##### Making a Github 
-    * go to  [Github](https://github.com)
+* go to  [Github](https://github.com)
         *click sign up
     * put all neeeded information
 #####  SSH Key stands for secure shell and establishs a secure connection between your computer and GitHub
-Go to GitHub, and go to your profile settings.
-Next, click on SSH and GPG Keys.
-Then, click on New SSH key to make a new SSH key.
- 
-Then go to c9.io and press the gear icon --> SSH keys tab --> copyand paste the SSH key in GitHub and add the SSH key.
-    
+
+Go to GitHub, and go to your profile settings.  
+Next, click on SSH and GPG Keys.  
+Then, click on New SSH key to make a new SSH key.  
+Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and paste the SSH key in GitHub and add the SSH key.  
+
 ---
 ## Repository Setup
 * ```git init```: Then, initialize git in the new repository
@@ -37,7 +37,7 @@ Then go to c9.io and press the gear icon --> SSH keys tab --> copyand paste the 
 * ```touch README.md```: Make a README file in the folder
 * ```git status```: Type git status to check the changes made in the file.
 * ```git add```: Type git add README.md to add the file to the stage
-* git commit -m: Type git commit -m “” and add a message about the changes made.
+* `git commit -m`: Type git commit -m “” and add a message about the changes made.
 
 
 ---
@@ -45,7 +45,8 @@ Then go to c9.io and press the gear icon --> SSH keys tab --> copyand paste the 
 * ```mkdir``` :creates a directory in the one thats working 
 * ```cd``` : stands for change directory
 * ```touch``` : craetes a new file 
-* ```ls ```  :  list
+* ```ls ```  : Lists all the files and folders in the directory you are in.  
+
 
 
 ---
