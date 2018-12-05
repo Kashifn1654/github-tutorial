@@ -26,7 +26,7 @@ _by Kashif Naseer_
 Go to GitHub, and go to your profile settings.  
 Next, click on SSH and GPG Keys.  
 Then, click on New SSH key to make a new SSH key.  
-Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and paste the SSH key in GitHub and add the SSH key.  
+Then go to c9.io and press the gear icon > SSH keys tab > copy from cloud9 and paste the SSH key in GitHub and add the SSH key.  
 
 ---
 ## Repository Setup
@@ -51,6 +51,18 @@ Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and 
 
 ---
 ## Rolling Back Changes
-*  undo edits in order to undo a edit that you did in a file then do git checkout -- filename
-* undo add in order to unstage a file you must git reset HEAD filename
-* undo commits in order to undo a commit there are three possible ways of undoing
+* undo push: ```git reset --hard HEAD~1``` leads you to your edits
+* undo add: Once you add you can reverse it by ```git reset HEAD flename```
+* undo commit:```git reset --soft Head~1```
+* undo edits: ```git checkout --filename```
+## How to Handle Errors?
+* If you used git init into your workpace you should see 
+   ```~/workspace (master)``` 
+
+* Then all you have to do is ```rm-rf .git``` now you know how to get back
+
+
+## Git clone, Forking,Pull
+* Git clone is when you get a local copy of your repo
+* Git Pull updates the local changes to the remote
+* Forking is a copy of the repo allowing you to experiment openly without any worries of changing the original content
